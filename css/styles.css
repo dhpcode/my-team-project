@@ -268,7 +268,66 @@ select:-webkit-autofill:focus {
 
 
 
+/* HERO */
 
+.hero {
+  background-image: url('../img/bg-img-circle.svg');
+  background-repeat: no-repeat;
+  background-position: top 66px left -100px;
+  overflow: hidden;
+}
+
+.hero__container {
+  background-image: url('../img/bg-image-hero.svg');
+  background-repeat: no-repeat;
+  background-position: right 0 bottom -100px;
+}
+
+.hero__inner {
+  display: flex;
+  gap: 30px;
+  padding-top: 66px;
+  padding-bottom: 250px;
+  overflow: hidden;
+}
+
+.hero__title {
+  margin: 0;
+  width: 635px;
+  /* height: 200px; */
+  font-size: 100px;
+  font-style: normal;
+  line-height: 100px;
+  /* 100% */
+}
+
+.hero__title--highlighted {
+  color: var(--light-coral);
+}
+
+
+.hero__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 195px;
+}
+
+.hero__line {
+  width: 50px;
+  height: 4px;
+  background-color: var(--rapture-blue);
+}
+
+.hero-text {
+  margin: 0;
+  width: 445px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 155.556% */
+}
 
 
 
