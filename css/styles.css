@@ -177,9 +177,7 @@ select:-webkit-autofill:focus {
 .button {
   display: inline-block;
   padding: 9px 32px 11px 33px;
-  border: 2px solid var(--white-color);
   border-radius: 24px;
-  color: var(--white-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -188,11 +186,25 @@ select:-webkit-autofill:focus {
   background-color: transparent;
 }
 
-.button:hover {
-  background-color: var(--white-color);
-  color: #002529;
+.button--white {
+  border: 2px solid var(--white-color);
+  color: var(--white-color);
 }
 
+.button--white:hover {
+  background-color: var(--white-color);
+  color: var(--dark-green);
+}
+
+.button--green {
+  border: 2px solid var(--sacramento-green);
+  color: var(--sacramento-green);
+}
+
+.button--green:hover {
+  background-color: var(--sacramento-green);
+  color: var(--white-color);
+}
 .button:active {
   opacity: 0.8;
 }
@@ -490,7 +502,40 @@ select:-webkit-autofill:focus {
   display: inline-block;
   width: 62px;
   height: 62px;
+}
 
+
+/* CTA */
+
+.cta {
+  background-color: var(--light-coral);
+  padding: 76px 0;
+  background-image: url('../img/bg-image-circle-rectangle.svg');
+  background-repeat: no-repeat;
+  background-position: left 0 bottom -100px;
+}
+
+.cta__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta__inner {
+  width: 917px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cta__title {
+  margin: 0;
+  color: var(--sacramento-green);
+  font-size: 48px;
+  font-style: normal;
+  line-height: 48px;
+  /* 100% */
 }
 
 
