@@ -330,6 +330,43 @@ select:-webkit-autofill:focus {
 }
 
 
+/* SERVICES */
+
+.services {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.services__inner {
+  display: flex;
+  padding-top: 54px;
+}
+
+.services__title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  /* 100% */
+}
+
+.services__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.services__item {}
+
+.services__icon {}
+
+.services__item-description {}
+
+.services__item-title {}
+
+.services__item-text {}
+
 
 
 
